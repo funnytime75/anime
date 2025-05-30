@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: novel
+  mail:
+    host: smtp.163.com
+    port: 465
+    username: funnytimeday@163.com
+    password: LVfZN35HXpj5gty3
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          auth: true
+          ssl:
+            enable: true
+        timeout: 5000
+        connection timeout: 5000
+        write timeout: 5000
+      debug: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/novel_platform
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      password:
+      database: 0
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
