@@ -1,0 +1,6 @@
+Flask
+mysql-connector-python
+redis
+Flask-Mail
+Pillow
+python-dotenv
